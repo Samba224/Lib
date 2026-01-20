@@ -1,0 +1,44 @@
+{
+  "com.securevpn.free": {
+    "app_name": "Secure VPN Pro",
+    "version": "4.2.1",
+    "targets": [
+      "isVip",
+      "getIsPremium",
+      "checkSubscriptionValid",
+      "isAdsRemoved"
+    ],
+    "network_redirects": [
+      "api.securevpn.com",
+      "auth.vpnservices.net"
+    ],
+    "author": "Samba224"
+  },
+  "com.fastsignal.proxy": {
+    "app_name": "Fast Signal VPN",
+    "version": "1.0.5",
+    "targets": [
+      "isUserPremium",
+      "isValidMember",
+      "shouldShowAds"
+    ],
+    "network_redirects": [
+      "free-signal.com",
+      "securesignal.app"
+    ],
+    "author": "Samba224"
+  },
+  "com.premium.extractor": {
+    "app_name": "Generic Premium App",
+    "version": "ALL",
+    "targets": [
+      "isPro",
+      "isSubscribed",
+      "isGoldUser"
+    ],
+    "network_redirects": [
+      "license.server.io"
+    ],
+    "author": "ApexAI"
+  }
+}
